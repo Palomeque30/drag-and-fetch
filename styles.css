@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(90, 4, 189);
+    padding: 10px;
+    color: white;
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .container {
+    height: 100%;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .container .column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+  
+  .column .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 4, 189);
+    color: white;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(90, 4, 189, 0.2);
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .active {
+    background-color: rgb(90, 4, 189, 0.2);
+    color: white;
+  }  
